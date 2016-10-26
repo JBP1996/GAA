@@ -14,12 +14,11 @@ public class Principal {
 				recBaile = 200,
 				recBar = 250;
 		int totalReceitas = quotas + recBaile + recBar;
-		System.out.println("Receitas: "+totalReceitas+"€");
-		
 		int 	agua = 80,
 				luz = 60,
 				telefone = 70;
 		int despesas = agua + luz + telefone;
+		System.out.println("Receitas: "+totalReceitas+"€");
 		System.out.println("Despesas: "+despesas+"€");
 		System.out.println("Balanço: "+(totalReceitas - despesas)+"€");
 	}
