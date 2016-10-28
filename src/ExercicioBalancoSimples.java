@@ -1,7 +1,7 @@
 
-public class ExercicioBalanco {
+public class ExercicioBalancoSimples {
 
-	public ExercicioBalanco() {
+	public ExercicioBalancoSimples() {
 		// TODO Auto-generated constructor stub
 		System.out.println("Ola Turma!");	
 		System.out.println("Receitas: "+calcularReceitas()+"€");
