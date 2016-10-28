@@ -13,7 +13,8 @@ public class Principal {
 		
 		do{
 			continua = false;
-			System.out.println("Qual deseja iniciar:\n 1- Exercicio Balanco Simples\n 2- InputBasico\n 3- Calculadora Simples\n 4- Balanco com insercao de valores\n");
+			System.out.println("Qual deseja iniciar:\n 1- Exercicio Balanco Simples\n 2- InputBasico\n 3- Calculadora Simples\n 4- Balanco com insercao de valores\n"
+					+ " 5- Adivinhar o numero escondido");
 			opcao = (new Scanner(System.in).nextInt());
 				
 			switch(opcao){
@@ -29,6 +30,9 @@ public class Principal {
 				case 4:
 					new dia28102016.ExercicioBalanco();
 					break;
+				case 5:
+					new dia28102016.AdivinhaNumero();
+					break;
 				default:
 					System.out.println("Não existe nenhuma opcao com esse numero!");
 					continua = true;
@@ -36,6 +40,9 @@ public class Principal {
 			}
 		} while(continua == true);
 		
+		for(int a=0; a<=5;a++){
+			System.out.println("\n");
+		}
 	}
 
 }
