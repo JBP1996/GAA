@@ -6,7 +6,15 @@ public class ExercicioBalanco {
 
 	public ExercicioBalanco() {
 		// TODO Auto-generated constructor stub
-		System.out.println("Balanço: "+calcularBalanco()+"€");
+		int balanco = calcularBalanco();
+		System.out.println("Balanço: "+balanco+"€");
+		if(balanco>0){
+			System.out.println("Balanco positivo");
+		}else if(balanco==0){
+			System.out.println("Balanco neutro");
+		}else{
+			System.out.println("Balanco negativo");
+		}
 	}
 
 	public int receitas(){
