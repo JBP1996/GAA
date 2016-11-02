@@ -14,7 +14,7 @@ public class Principal {
 		do{
 			continua = false;
 			System.out.println("Qual deseja iniciar:\n 1- Exercicio Balanco Simples\n 2- InputBasico\n 3- Calculadora Simples\n 4- Balanco com insercao de valores\n"
-					+ " 5- Adivinhar o numero escondido\n 6- Numero1 maior que Numero2\n 7- Ciclos");
+					+ " 5- Adivinhar o numero escondido\n 6- Numero1 maior que Numero2\n 7- Ciclos\n 8- CalculadoraInfinita");
 			opcao = (new Scanner(System.in).nextInt());
 				
 			switch(opcao){
@@ -38,6 +38,9 @@ public class Principal {
 					break;
 				case 7:
 					new dia02112016.Ciclos();
+					break;
+				case 8:
+					new dia02112016.CalculadoraInfinita();
 					break;
 				default:
 					System.out.println("Não existe nenhuma opcao com esse numero!");
